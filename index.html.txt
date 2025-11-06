@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma Surpresa para Você</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+<div class="container">
+  
+  <h1>Feliz 2 meses, meu amor!</h1>
+  <p>Aqui estão alguns presentes para você usar quando quiser:</p>
+
+  <div class="card-grid">
+    
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Vale uma noite de filmes</h2>
+          <p>(Escolhidos por você)</p>
+        </div>
+        <div class="card-back">
+          <h2>Resgatado!</h2>
+          <p>Me avise quando quiser usar. Te amo! ❤️</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Vale um jantar especial</h2>
+          <p>(Sem glúten, claro)</p>
+        </div>
+        <div class="card-back">
+          <h2>Resgatado!</h2>
+          <p>No melhor restaurante que eu encontrar (ou um delivery hehehehe)</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Vale uma massagem relaxante</h2>
+          <p>(Sem hora pra acabar)</p>
+        </div>
+        <div class="card-back">
+          <h2>Resgatado!</h2>
+          <p>Pode me cobrar quando estiver cansada. ❤️</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Vale um passeio no Parque de mãos dadas</h2>
+          <p>(no *nosso* parque)</p>
+        </div>
+        <div class="card-back">
+          <h2>Resgatado!</h2>
+          <p>Bônus: muitos beijos e abraços!</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Vale 1000 beijos</h2>
+          <p>(Com multa em juros por atraso no resgate)</p>
+        </div>
+        <div class="card-back">
+          <h2>Resgatado!</h2>
+          <p>Multa de 150% para cada dia não resgatado! Cuidado, hein.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Vale 1000 chêros no cangote</h2>
+          <p>(Meu preferido!)</p>
+        </div>
+        <div class="card-back">
+          <h2>Resgatado!</h2>
+          <p>Use com moderação! (Ou não..... rsrsrsrsrs).</p>
+        </div>
+      </div>
+    </div>
+    
+  </div> </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

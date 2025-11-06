@@ -1,0 +1,112 @@
+/* Configurações gerais da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf2f4; /* Rosa bem clarinho */
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+h1 {
+  color: #d90429; /* Um vermelho-cereja */
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* A grade que segura os cartões */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* A MÁGICA COMEÇA AQUI */
+
+/* A perspectiva para o efeito 3D */
+.card {
+  background-color: transparent;
+  height: 200px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+/* O contêiner que realmente vira */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+/* O estado "virado" */
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Estilo da frente e do verso */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Para Safari */
+  backface-visibility: hidden; /* Esconde o lado de trás */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo da FRENTE */
+.card-front {
+  background: linear-gradient(135deg, #ff758c, #ff477e);
+  color: white;
+}
+
+.card-front h2 {
+  font-size: 1.4em;
+  margin: 0;
+}
+.card-front p {
+  font-size: 1em;
+  color: #fff;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+/* Estilo do VERSO */
+.card-back {
+  background-color: #f0f0f0;
+  color: #333;
+  transform: rotateY(180deg);
+}
+
+.card-back h2 {
+  color: #2a9d8f; /* Um verde-água */
+  margin: 0;
+}
+.card-back p {
+  color: #555;
+  font-size: 1.1em;
+}
+/* ... etc ... */
